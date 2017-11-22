@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">十字军刀</string>
+    <string name="center">中心</string>
+    <string name="bot">下面</string>
+    <string name="left">左边</string>
+    <string name="right">右边</string>
+    <string name="top">上边</string>
+</resources>

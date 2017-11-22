@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.hoinnet.alternative.watchhome.activity.MainActivity">
+
+
+    <com.android.hoinnet.alternative.watchhome.cross.SquareFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipChildren="false">
+
+        <com.android.hoinnet.alternative.watchhome.cross.HorizontalInfiniteCycleViewPager
+            android:id="@+id/main_horizontalinfinitecycleviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:icvp_scroll_duration="250"
+            app:icvp_center_page_scale_offset="0dp"
+            app:icvp_max_page_scale="1.0"
+            app:icvp_medium_scaled="true"
+            app:icvp_min_page_scale="0.7"
+            app:icvp_min_page_scale_offset="0dp"/>
+
+    </com.android.hoinnet.alternative.watchhome.cross.SquareFrameLayout>
+
+
+</RelativeLayout>
